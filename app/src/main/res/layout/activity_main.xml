@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/logo"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:drawableLeft="@drawable/username"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:drawableLeft="@drawable/password"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:layout_marginLeft="290sp"
+         />
+    <Button
+        android:layout_marginTop="30sp"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="LogIn"
+        android:backgroundTint="@color/red"
+        />
+
+        <TextView
+
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:layout_marginLeft="150dp"
+
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register Now!"
+            android:textSize="35dp"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:layout_marginLeft="110dp"
+
+            />
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_marginLeft="40sp"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:src="@drawable/contect"
+
+            />
+        <ImageView
+            android:layout_marginLeft="40sp"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:src="@drawable/location"/>
+        <ImageView
+            android:layout_marginLeft="40sp"
+            android:layout_width="50dp"
+            android:layout_height="40sp"
+            android:src="@drawable/payment"/>
+        <ImageView
+            android:layout_marginLeft="40sp"
+            android:layout_width="50dp"
+            android:layout_height="40sp"
+            android:src="@drawable/logo"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
